@@ -39,7 +39,7 @@ Grab the latest APK from the **[Releases](https://github.com/SinghGurjot01-Code/
 
 | Release | Notes |
 |---|---|
-| [Dilect Android v1.0.0](https://github.com/SinghGurjot01-Code/DilectApp/releases/tag/v1.0.0) | Initial public release |
+| [Dilect Android v1.0.1]([https://github.com/SinghGurjot01-Code/DilectApp/releases/tag/v1.0.0]) | Initial public release |
 
 ## Installation
 
