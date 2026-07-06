@@ -21,7 +21,7 @@ This repository hosts the **official Android builds** of [Dilect](#) — the cre
 
 The Android app wraps the full Dilect experience in a native shell: your own dashboard, an in-browser project editor, one-tap deploys to a live subdomain, and a Discover feed to see what other people are building — plus native extras like Google Sign-In, push-style notifications, and offline-friendly navigation.
 
-> 🌐 Prefer the browser? Use Dilect at **[your-live-url-here](#)**.
+> 🌐 Prefer the browser? Use Dilect at **[[your-live-url-here](https://dilect-app.netlify.app/)](#)**.
 
 ## Features
 
