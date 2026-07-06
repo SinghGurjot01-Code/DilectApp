@@ -4,84 +4,200 @@
 
 **Build, host, and share static sites — right from your phone.**
 
-[![Latest Release](https://img.shields.io/github/v/release/SinghGurjot01-Code/DilectApp?label=latest%20release&color=A78BFA)](https://github.com/SinghGurjot01-Code/DilectApp/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/SinghGurjot01-Code/DilectApp?label=Latest%20Release&color=A78BFA)](https://github.com/SinghGurjot01-Code/DilectApp/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/SinghGurjot01-Code/DilectApp/total?color=A78BFA)](https://github.com/SinghGurjot01-Code/DilectApp/releases)
-[![Platform](https://img.shields.io/badge/platform-Android-3DDC84?logo=android&logoColor=white)](#requirements)
-[![License](https://img.shields.io/badge/license-unspecified-lightgrey)](#license)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](#requirements)
+[![Download APK](https://img.shields.io/badge/Download-APK-A78BFA?style=for-the-badge)](https://github.com/SinghGurjot01-Code/DilectApp/releases/latest)
 
-[Download](#download) · [Features](#features) · [Installation](#installation) · [Screenshots](#screenshots) · [Support](#support)
+[Download](#download) • [Features](#features) • [Installation](#installation) • [Requirements](#requirements) • [Screenshots](#screenshots) • [Support](#support)
 
 </div>
 
 ---
 
-## About
+# About
 
-This repository hosts the **official Android builds** of [Dilect](#) — the creator platform where you build, deploy, and share static sites, all in one place. This isn't the source code; it's the distribution point for signed APKs until Dilect is live on the Play Store.
+**Dilect** is a platform that lets you build, host, and share static websites directly from your phone or browser.
 
-The Android app wraps the full Dilect experience in a native shell: your own dashboard, an in-browser project editor, one-tap deploys to a live subdomain, and a Discover feed to see what other people are building — plus native extras like Google Sign-In, push-style notifications, and offline-friendly navigation.
+This repository contains the **official Android APK releases** of Dilect. It does **not** contain the application's source code. It exists solely as the download location for signed APKs until Dilect becomes available on the Google Play Store.
 
-> 🌐 Prefer the browser? Use Dilect at **[(https://dilect-app.netlify.app/)](#)**.
+The Android app wraps the full Dilect web experience in a native application, providing:
 
-## Features
+- Native Google Sign-In
+- Better navigation
+- Proper Android back-button support
+- Offline-friendly page caching
+- Faster startup
+- Native sharing support
 
-- 📁 **Projects dashboard** — stats, recent projects, and activity at a glance
-- 🧑‍💻 **In-browser editor** — build and preview static sites without leaving the app
-- 🚀 **One-tap deploy** — every project gets a live, shareable subdomain
-- 🔍 **Discover** — browse and get inspired by what the community is building
-- 🔐 **Native Google Sign-In** — fast, secure sign-in without leaving the app
-- 🔔 **Announcements & alerts** — stay in the loop on platform updates
-- 📱 **Built for mobile** — native navigation, safe-area aware layouts, proper back-button handling
+Prefer using your browser?
 
-## Download
+**https://dilect-app.netlify.app/**
 
-Grab the latest APK from the **[Releases](https://github.com/SinghGurjot01-Code/DilectApp/releases/latest)** page.
+---
 
-| Release | Notes |
-|---|---|
-| [Dilect Android v1.0.1]([https://github.com/SinghGurjot01-Code/DilectApp/releases/tag/v1.0.0]) | Initial public release |
+# Features
 
-## Installation
+- Project dashboard with statistics
+- Create and edit HTML, CSS and JavaScript projects
+- Live preview while editing
+- One-click deployment
+- Share projects with a unique subdomain
+- Discover projects from other creators
+- Native Google Sign-In
+- Platform announcements
+- Mobile-optimized interface
+- Smooth native navigation
+- Secure authentication
+- Fast loading experience
 
-Since Dilect isn't on the Play Store yet, Android will ask you to confirm installing from outside the store. This is expected — here's how to get past it:
+---
 
-1. Download the `.apk` file from the [Releases](https://github.com/SinghGurjot01-Code/DilectApp/releases/latest) page on your Android device.
-2. Open the downloaded file. If prompted, allow your browser or file manager to **install unknown apps** (Settings → Apps → *[Browser/Files app]* → Install unknown apps → Allow).
-3. Tap **Install**, then open the app once it finishes.
-4. Sign in with Google or your Dilect account to get started.
+# Download
 
-> 💡 Updating later? Just download the newer APK and install over the existing app — your data lives in your account, not on the device.
+Download the newest APK from the latest GitHub release:
 
-## Requirements
+### Latest Release
+
+https://github.com/SinghGurjot01-Code/DilectApp/releases/latest
+
+---
+
+# Installation
+
+Since Dilect is currently distributed outside of the Google Play Store, Android may display a security warning before installation.
+
+### 1. Download
+
+Download the APK from the latest release.
+
+### 2. Allow installation
+
+If Android asks, enable:
+
+**Settings → Apps → Your Browser (or Files app) → Install Unknown Apps → Allow**
+
+### 3. Install
+
+Open the downloaded APK and tap **Install**.
+
+### 4. Open Dilect
+
+Sign in using either:
+
+- Google
+- Dilect Account
+
+and start creating websites.
+
+> Updating is simple. Download the latest APK and install it over the previous version. Your projects are stored in your account.
+
+---
+
+# Requirements
 
 - Android 8.0 (Oreo) or newer
-- An internet connection (Dilect is a connected, account-based app)
+- Internet connection
+- Google Play Services (recommended for Google Sign-In)
 
-## Screenshots
+---
+
+# Screenshots
 
 <div align="center">
-
-<!-- Add screenshots here, e.g.: -->
-<!-- <img src="screenshots/home.png" width="220" /> <img src="screenshots/editor.png" width="220" /> <img src="screenshots/discover.png" width="220" /> -->
 
 *Screenshots coming soon.*
 
 </div>
 
-## Building from source
+---
 
-This repo only contains release binaries. If you're looking for the app's source (Capacitor + Supabase, vanilla JS frontend), check the main Dilect repository — or reach out if you'd like access.
+# Building from Source
 
-## Support
+This repository only contains compiled Android releases.
 
-Found a bug or have a feature request? [Open an issue](https://github.com/SinghGurjot01-Code/DilectApp/issues) — that's the fastest way to get it seen.
+The application itself is built using:
 
-## License
+- Capacitor
+- HTML
+- CSS
+- JavaScript
+- Supabase
 
-No license has been set for this repository yet — all rights reserved by default until one is added. *(Replace this section once you pick a license, e.g. MIT.)*
+The source code is currently private.
+
+---
+
+# Reporting Issues
+
+Found a bug?
+
+Have a feature request?
+
+Please open an issue here:
+
+https://github.com/SinghGurjot01-Code/DilectApp/issues
+
+When reporting a bug, please include:
+
+- Android version
+- Device model
+- Dilect version
+- Steps to reproduce
+- Screenshots (if applicable)
+
+---
+
+# FAQ
+
+## Is Dilect free?
+
+Yes.
+
+## Does the app work offline?
+
+Some pages are cached, but creating, deploying and managing projects requires an internet connection.
+
+## Is my data stored on my phone?
+
+No.
+
+Your projects are stored securely in your Dilect account.
+
+## Will Dilect be available on Google Play?
+
+Yes. The Play Store release is planned for a future update.
+
+---
+
+# Changelog
+
+## v1.0.1
+
+- Initial public Android release
+- Native Google Sign-In
+- Improved mobile navigation
+- Better loading performance
+- Various bug fixes
+
+---
+
+# License
+
+No open-source license has been assigned to this repository.
+
+All rights reserved.
 
 ---
 
 <div align="center">
-Made with ☕ and a lot of debugging by <a href="https://github.com/SinghGurjot01-Code">Gurjot Pal Singh</a>
+
+Made with ☕ and a lot of debugging by
+
+### GurjotPal Singh
+
+GitHub:
+
+https://github.com/SinghGurjot01-Code
+
 </div>
